@@ -20,8 +20,9 @@ DB_PASSWORD=your_password
 Then install, migrate, seed, all that jazz:
 
 1. `composer install`
-2. `php artisan migrate`
-3. `php artisan db:seed`
-4. `php artisan serve`
+2. `php artisan key:generate`
+3. `php artisan migrate`
+4. `php artisan db:seed`
+5. `php artisan serve`
 
 The API will be running on `localhost:8000`.
